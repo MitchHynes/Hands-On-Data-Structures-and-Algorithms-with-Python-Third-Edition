@@ -1,7 +1,7 @@
 def merge_sort(unsorted_list):  
     if len(unsorted_list) == 1:  
         return unsorted_list
-    mid_point = int(len(unsorted_list)/2)   
+    mid_point = len(unsorted_list)//2   
     first_half = unsorted_list[:mid_point]  
     second_half = unsorted_list[mid_point:]  
  
