@@ -4,5 +4,5 @@ def fib(n):
   else:
     return fib(n-1) + fib(n-2)
 
-for i in range(5):
+for i in range(40):
   print(fib(i)) 
